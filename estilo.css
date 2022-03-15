@@ -10,33 +10,60 @@ body{
 #page {
     width: 80%;
     margin: 0 auto;
+    background-color:#639FFF;
+    border-radius: 15px;
+    padding: 15px;
 }
 #titulo{
     display: flex;
     align-items: center;
-    background-color: rgb(1, 167, 65);
+    background-color:#B37D10;
+    text-align: center;
+    border-radius: 15px;
+    padding: 8px;
 }
 #chatE{
     text-align: left;
-    background-color: aquamarine;
+    background-color: #FFC44A;
+    margin: 25px 500px 0px 100px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 8px 4px 4px black;
 }
 #chatD{
     text-align: right;
-    background-color: bisque;
+    background-color: #1A54B3;
+    margin: 25px 100px 25px 500px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 8px 4px 4px black;
 }
 #enviar{
     text-align: center;
     background-color: brown;
+    margin: 0px 50px 10px 50px;
+    border-radius: 15px;
+
 }
 header{
     display: flex;
-    border: 1px solid;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 header h2{
     font-size: 16px;
     letter-spacing: -2px;
     color: green;
-
+}
+h3{
+    font-family: Courier;
+    font-size: small;
+}
+hr{
+    margin: 20px 0px 20px 0px;
+}
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
