@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Helvetica;
+    font-size: 16px;
+}
+#page {
+    width: 80%;
+    margin: 0 auto;
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 167, 65);
+}
+#chatE{
+    text-align: left;
+    background-color: aquamarine;
+}
+#chatD{
+    text-align: right;
+    background-color: bisque;
+}
+#enviar{
+    text-align: center;
+    background-color: brown;
+}
+header{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    font-size: 16px;
+    letter-spacing: -2px;
+    color: green;
+
+}
