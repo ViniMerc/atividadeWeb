@@ -10,40 +10,50 @@ body{
 #page {
     width: 80%;
     margin: 0 auto;
-    background-color:#639FFF;
+    background-color:#e4e7ec;
     border-radius: 15px;
     padding: 15px;
 }
 #titulo{
-    display: flex;
     align-items: center;
-    background-color:#B37D10;
+    background-color:#c2c1bf;
     text-align: center;
     border-radius: 15px;
     padding: 8px;
+    box-shadow: 8px 4px 4px black;
 }
 #chatE{
     text-align: left;
-    background-color: #FFC44A;
+    background-color: #ffffff;
     margin: 25px 500px 0px 100px;
-    border-radius: 15px;
+    border-radius: 15px 0px 15px 0px;
     padding: 10px;
     box-shadow: 8px 4px 4px black;
 }
 #chatD{
     text-align: right;
-    background-color: #1A54B3;
+    background-color: #636568;
     margin: 25px 100px 25px 500px;
-    border-radius: 15px;
+    border-radius: 15px 0px 15px 0px;
     padding: 10px;
     box-shadow: 8px 4px 4px black;
 }
 #enviar{
     text-align: center;
-    background-color: brown;
+    background-color: rgb(77, 66, 66);
     margin: 0px 50px 10px 50px;
     border-radius: 15px;
-
+    display: flex;
+    padding: 9px;
+}
+#enviar input{
+    flex:1;
+}
+#enviar button{
+    margin-left: 6px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 5px;
 }
 header{
     display: flex;
@@ -62,8 +72,4 @@ h3{
 }
 hr{
     margin: 20px 0px 20px 0px;
-}
-button{
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
