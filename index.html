@@ -13,7 +13,7 @@
                     <h1>Atendimento Online</h1>
                 </div>
                 <div class="container">
-                    <ul id="lista-de-compras">
+                    <ul id="Chat">
                       <li class="empty">Nenhuma mensagem</li>
                     </ul>
                     <form
@@ -37,14 +37,15 @@
             </div>  
         </div>
         <script type="text/javascript">
+          
             function criaItem(item) {
               const nLI = document.createElement("li");
               const nStrong = document.createElement("strong");
               nStrong.innerText = item;
               nLI.appendChild(nStrong);
-              const listaCompras = document.querySelector("#lista-de-compras");
-              listaCompras.appendChild(nLI);
-              const empty = document.querySelector("#lista-de-compras .empty");
+              const Chat = document.querySelector("#Chat");
+              Chat.appendChild(nLI);
+              const empty = document.querySelector("#Chat .empty");
               empty.style.display = "none";
             }
             const formAdd = document.getElementById("formAdd");
@@ -55,9 +56,6 @@
               itemInput.value = "";
               itemInput.focus();
             });
-            document.onkeypress = function (e) {
-              if (e.keyCode == 13) criaItem(resposta);
-            };
           </script>
     </body>
 </html>
